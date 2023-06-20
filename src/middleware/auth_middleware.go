@@ -4,9 +4,9 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/pa-vuhn/api-mock/src/app"
-	"github.com/pa-vuhn/api-mock/src/config"
-	"github.com/pa-vuhn/api-mock/src/utils/jwt"
+	"github.com/phucnh/api-mock/src/app"
+	"github.com/phucnh/api-mock/src/config"
+	"github.com/phucnh/api-mock/src/utils/jwt"
 )
 
 func AuthMiddleWareFunc() app.MiddlewareFunc {

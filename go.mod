@@ -1,4 +1,4 @@
-module github.com/pa-vuhn/api-mock
+module github.com/phucnh/api-mock
 
 go 1.19
 

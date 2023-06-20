@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/pa-vuhn/api-mock/src/app"
-	"github.com/pa-vuhn/api-mock/src/handlers"
-	"github.com/pa-vuhn/api-mock/src/middleware"
+	"github.com/phucnh/api-mock/src/app"
+	"github.com/phucnh/api-mock/src/handlers"
+	"github.com/phucnh/api-mock/src/middleware"
 )
 
 func main() {

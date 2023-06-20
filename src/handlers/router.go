@@ -1,7 +1,7 @@
 package handlers
 
 import (
-	"github.com/pa-vuhn/api-mock/src/app"
+	"github.com/phucnh/api-mock/src/app"
 )
 
 func AddRouters(a *app.App) {

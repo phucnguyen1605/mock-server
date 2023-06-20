@@ -3,10 +3,10 @@ package services
 import (
 	"log"
 
-	"github.com/pa-vuhn/api-mock/src/app"
-	"github.com/pa-vuhn/api-mock/src/config"
-	"github.com/pa-vuhn/api-mock/src/entities"
-	"github.com/pa-vuhn/api-mock/src/models"
+	"github.com/phucnh/api-mock/src/app"
+	"github.com/phucnh/api-mock/src/config"
+	"github.com/phucnh/api-mock/src/entities"
+	"github.com/phucnh/api-mock/src/models"
 )
 
 type (

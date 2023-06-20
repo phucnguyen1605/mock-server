@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	"github.com/google/uuid"
-	"github.com/pa-vuhn/api-mock/src/app"
-	"github.com/pa-vuhn/api-mock/src/config"
-	"github.com/pa-vuhn/api-mock/src/entities"
-	"github.com/pa-vuhn/api-mock/src/services"
+	"github.com/phucnh/api-mock/src/app"
+	"github.com/phucnh/api-mock/src/config"
+	"github.com/phucnh/api-mock/src/entities"
+	"github.com/phucnh/api-mock/src/services"
 )
 
 type (

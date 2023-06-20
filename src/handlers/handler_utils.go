@@ -3,8 +3,8 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/pa-vuhn/api-mock/src/app"
-	"github.com/pa-vuhn/api-mock/src/config"
+	"github.com/phucnh/api-mock/src/app"
+	"github.com/phucnh/api-mock/src/config"
 )
 
 func renderError(c app.Context, err error) {

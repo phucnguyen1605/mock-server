@@ -3,8 +3,8 @@ package models
 import (
 	"log"
 
-	"github.com/pa-vuhn/api-mock/src/app"
-	"github.com/pa-vuhn/api-mock/src/entities"
+	"github.com/phucnh/api-mock/src/app"
+	"github.com/phucnh/api-mock/src/entities"
 )
 
 type (
