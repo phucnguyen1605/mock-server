@@ -1,6 +1,6 @@
 module github.com/pa-vuhn/api-mock
 
-go 1.14
+go 1.19
 
 require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
