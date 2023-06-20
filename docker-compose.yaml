@@ -1,0 +1,25 @@
+version: "3.7"
+services:
+  mysql:
+    container_name: mock_api_mysql
+    image: mysql:5.7
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456
+      - MYSQL_USER=mock_api
+      - MYSQL_PASSWORD=mock_api
+      - MYSQL_DATABASE=mock_api
+    volumes:
+      - "./db/mysqsql/init_db.sql:/docker-entrypoint-initdb.d/1.sql"
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: vuhn07/mock_api:v1
+    ports:
+      - "5151:5151"
+    depends_on:
+      - mysql
+    environment:
+      DB_CONNECTION_STRING: "root:123456@tcp(mysql)/mock_api"
